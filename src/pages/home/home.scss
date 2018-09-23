@@ -1,3 +1,47 @@
-page-home {
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+.toolbar-background{
+  background: #8D44AD;
+}
+ion-header img{
+  position: absolute;
+  z-index: 2;
+  top: -10%;
+  height: 109%;
+  width: 37%;
+}
+.header-icon{
+  position: absolute;
+  right: 4%;
+  top:30%;
+  font-size: 25px;
+  color: wheat;
+}
 
+.content{
+  background: #FFC301;
+}
+.card-image{
+  border-radius: 10px;
+}
+.content-card{
+  background: #FFF9E6;
+  border-radius: 6px;
+  position: relative;
+}
+.item-block{
+  background: #FFF9E6;
+}
+.more{
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  color: #FFC401;
+}
+.right-button{
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  background: #FFC401;
 }
